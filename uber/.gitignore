@@ -1,0 +1,74 @@
+# Django
+settings.py
+manage.py
+db.sqlite3
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+
+# Virtual Environment
+.live-location-venv/
+venv/
+env/
+ENV/
+.env
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+
+# Static files (if collected)
+staticfiles/
+mediafiles/
+
+# Environment variables
+.env.local
+.env.prod
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# PyInstaller
+build/
+dist/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Pyre type checker
+.pyre/
+
+# Celery
+celerybeat-schedule
+
+# Production
+deployments/
+backups/
+
+# Testing
+.pytest_cache/
+.mypy_cache/
